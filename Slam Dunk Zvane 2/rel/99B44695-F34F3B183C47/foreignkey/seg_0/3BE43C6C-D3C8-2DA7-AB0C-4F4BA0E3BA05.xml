@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3BE43C6C-D3C8-2DA7-AB0C-4F4BA0E3BA05" containerWithKeyObject="9D9B5050-CA31-D4A8-0F5B-A1B8FB2BF0D8" localFKIndex="71C9C8FB-951B-7C33-0EEB-53E4F7BB9513" name="ARTIKL_POVIJEST_CIJENA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<generatorID>6CF0DEB0-0E24-E796-1F24-B153ADF28FFE</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<referredTableLongName>POVIJEST_CIJENA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A9C04E76-31BF-F120-3DB6-655E6289502F</referredTableID>
+<keyObject>01A6C29D-292C-0451-2029-90D8060A5696</keyObject>
+<referredKeyID>01A6C29D-292C-0451-2029-90D8060A5696</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>datum_promjene,vrijeme_promjene</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

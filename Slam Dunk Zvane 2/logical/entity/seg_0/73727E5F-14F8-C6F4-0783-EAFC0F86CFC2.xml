@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73727E5F-14F8-C6F4-0783-EAFC0F86CFC2" name="SKLADISTE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:33:51 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SKL</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_skladista" id="6D22B289-F4EF-E00E-0C4B-EB9C7DC77E47">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:34:05 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kolicina" id="08324D84-0F83-B511-C900-F9A7FDB7DBD3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:34:20 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nabavna_cijena" id="9EA5C65B-985E-B6F6-E9DE-049D02684B12">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:34:35 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67A0F42E-F4C7-6922-4F8D-3941945DDA8E" name="SKLADISTE PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:34:17 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D22B289-F4EF-E00E-0C4B-EB9C7DC77E47</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

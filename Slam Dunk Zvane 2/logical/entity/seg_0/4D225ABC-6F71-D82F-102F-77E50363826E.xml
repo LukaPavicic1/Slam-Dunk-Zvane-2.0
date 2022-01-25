@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D225ABC-6F71-D82F-102F-77E50363826E" name="Prod.Pred">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:28:26 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PPR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="e-mail" id="D290F9D8-50DE-1596-F25B-031D74302785">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:28:51 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="17640E23-F496-C691-6DC0-C8B3CA620536">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:29:40 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="F55F9F0D-31B8-762F-B7D9-4D71D730905C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:29:59 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica" id="7AAF6B10-00C4-B7FE-4159-7E298127F054">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:30:15 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kucni_broj" id="6E0F5BED-2C55-B1A6-6931-14266F8C34DD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:30:32 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postanski_broj" id="4E295F8B-F12D-388A-BEF5-1A5169A81E25">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:30:50 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grad" id="5CF99EC0-DD45-6A65-5225-0BF5480EBC42">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:31:05 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_telefona" id="0938B1DD-A649-1F20-FFC5-A30C9B56EBC6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:31:45 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postotak provizije" id="391CC730-381F-E34B-3315-0A7425FC16D3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:32:07 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e-mail1" id="FFD506EA-CD99-BDEC-D855-E79CA7882CAF">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 12:00:11 UTC</createdTime>
+<generatorID>EF47E338-A6B4-C5BA-4A9F-08FBD1E9A7D3</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D290F9D8-50DE-1596-F25B-031D74302785</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E6222DB-C8AE-0324-BFCA-929C4BB65FFE" name="Prod.Pred PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:29:07 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D290F9D8-50DE-1596-F25B-031D74302785</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rel_EKP_KUPPRED" directorySegmentName="seg_0" id="740E9FB5-A7E1-883B-72F7-797752536009">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:58:02 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<sourcePk>C4FF21BD-3D5F-A183-D78C-FE35ABE96CC7</sourcePk>
+<targetPk>33BEECC5-AC3F-054F-5D42-8DEA9A8061F0</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CF868CC5-5EE0-ECEE-1F1F-C7A11C7B15B6</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F77199D8-1A08-5771-6C6A-BADE7D671559</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

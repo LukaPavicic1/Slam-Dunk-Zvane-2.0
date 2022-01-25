@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42E65222-FF97-D955-7423-FF0D88ADA29D" name="ARTIKL">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:35:14 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ART</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_artikla" id="BF345A52-5C09-5DDF-81F5-C6FDE1AF839B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:35:26 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="159F5C83-DB92-A195-2086-AC3862484E75">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:35:39 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="B7B98EB0-22DB-370C-2AAB-DBEDC237D7ED">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:35:52 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kategorija" id="023AE23D-4DF3-698D-2AB6-475A59874FF5">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:36:10 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Boja" id="B52069BD-7ABF-2559-9A2E-CC59DEF7EF34">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:37:18 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="velicina" id="387931C3-F894-D408-D2BD-35D76F5E51FD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:37:31 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_promjene" id="D522B48B-BDC5-2556-F499-849418091079">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 12:03:57 UTC</createdTime>
+<generatorID>6CF0DEB0-0E24-E796-1F24-B153ADF28FFE</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<referedAttribute>14114A85-A469-D824-6167-0C95F834E0F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme_promjene" id="774709AA-3636-6D59-86D9-576F7145084D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 12:03:57 UTC</createdTime>
+<generatorID>6CF0DEB0-0E24-E796-1F24-B153ADF28FFE</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<referedAttribute>F856C216-72CE-D1A7-7BE4-5446BF2FADA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2337317-BE22-1C22-D108-DC174523BE80" name="ARTIKL PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:35:37 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<engineerTo>
+<item key="99B44695-E4B2-20AE-A282-F34F3B183C47" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF345A52-5C09-5DDF-81F5-C6FDE1AF839B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

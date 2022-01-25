@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D9B5050-CA31-D4A8-0F5B-A1B8FB2BF0D8" name="ARTIKL">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<generatorID>42E65222-FF97-D955-7423-FF0D88ADA29D</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<abbreviation>ART</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_artikla" id="47665437-9B79-FF55-A6EF-CF23BF22C58A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<generatorID>BF345A52-5C09-5DDF-81F5-C6FDE1AF839B</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="A89F90FA-7411-584D-3CE6-46AE0AE35778">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<generatorID>159F5C83-DB92-A195-2086-AC3862484E75</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="1C314281-1643-A39E-6099-03B6F61E4DB1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<generatorID>B7B98EB0-22DB-370C-2AAB-DBEDC237D7ED</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kategorija" id="4D903C84-823E-62E1-9344-963B6B219C08">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<generatorID>023AE23D-4DF3-698D-2AB6-475A59874FF5</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Boja" id="4052D554-45F1-B391-85BE-10A70FD5DD23">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<generatorID>B52069BD-7ABF-2559-9A2E-CC59DEF7EF34</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="velicina" id="5E50D504-EB1B-9D8C-7556-122A7CA40BD1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<generatorID>387931C3-F894-D408-D2BD-35D76F5E51FD</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POVIJEST_CIJENA_datum_promjene" id="12EA4FCF-91A7-E7F9-414D-C87F7CA1E916">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<generatorID>D522B48B-BDC5-2556-F499-849418091079</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BE43C6C-D3C8-2DA7-AB0C-4F4BA0E3BA05" referredColumn="B101A10E-E28A-0A3B-29A0-5120EAA10B36"/>
+</associations>
+</Column>
+<Column name="POVIJEST_CIJENA_vrijeme_promjene" id="BF9F1BEE-B1EF-8538-7AB6-765786B05A22">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<generatorID>774709AA-3636-6D59-86D9-576F7145084D</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BE43C6C-D3C8-2DA7-AB0C-4F4BA0E3BA05" referredColumn="334ADBDC-A632-DCF2-8E34-DE47180893DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCAC29D5-9E96-9F50-C216-F95071E421B6" name="ARTIKL_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<generatorID>A2337317-BE22-1C22-D108-DC174523BE80</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47665437-9B79-FF55-A6EF-CF23BF22C58A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71C9C8FB-951B-7C33-0EEB-53E4F7BB9513" name="ARTIKL_POVIJEST_CIJENA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<generatorID>6CF0DEB0-0E24-E796-1F24-B153ADF28FFE</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12EA4FCF-91A7-E7F9-414D-C87F7CA1E916"/>
+<colUsage columnID="BF9F1BEE-B1EF-8538-7AB6-765786B05A22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

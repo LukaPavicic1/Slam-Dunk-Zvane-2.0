@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="31F254C7-5151-8B06-C0A1-2D9806D97078" name="FKArc_1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>C5259CB2-5B23-1ADA-34D0-4428426FCEC8</table>
+<fkeys>
+<fkeyID>E345F8E8-FADA-98EC-28B3-4C021D74D062</fkeyID>
+<fkeyID>0E7A1DDE-6D01-A7ED-2BA8-37F22F071A33</fkeyID>
+</fkeys>
+</FKArc>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="763C4395-2FEF-1283-32B2-A46EFF0BF41A" containerWithKeyObject="71DD001A-90C7-4AD1-4DA6-B5BD79F49D1D" localFKIndex="22CF9D9B-96E2-133C-C6AD-7ABD94F8E170" name="NARUCENI_ARTIKL_NARUDZBA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:49 UTC</createdTime>
+<generatorID>0397C4F7-9A2D-9371-2A01-E98F4D5C04AA</generatorID>
+<ownerDesignName>Slam Dunk Zvane 2</ownerDesignName>
+<referredTableLongName>NARUDZBA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F38C11E0-8A86-0E50-DEC0-710C4D88BF8E</referredTableID>
+<keyObject>C945F476-FDF1-B14F-DFEA-3ADD8FF5B954</keyObject>
+<referredKeyID>C945F476-FDF1-B14F-DFEA-3ADD8FF5B954</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_narudzba</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
